@@ -68,6 +68,7 @@ p {
 .fact p {
     margin: 0;
 }
+
 .animate-fact {
     transition: width 0.3s;
 }
@@ -76,6 +77,18 @@ p {
     height: 210px;
     width: 200px;
     border-radius: 25px;
+}
+
+.slick-slide .d-flex {
+    position: relative;
+    height: 170px;
+}
+
+.slick-slide img {
+    transition: transform .2s;
+}
+.slick-slide img:hover {
+    transform: scale(1.4);
 }
 
 .d-none {
