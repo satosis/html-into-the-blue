@@ -202,7 +202,7 @@ body {
   overflow-x: hidden;
 }
 a {
-  color: #39c8e2;
+  color: #5f9ea0;
   text-decoration: none !important;
   -webkit-transition: color 200ms ease-in-out;
   -moz-transition: color 200ms ease-in-out;
@@ -232,7 +232,7 @@ input.main-button,
   text-transform: uppercase;
   padding: 10px 15px;
   color: #ffffff;
-  background-color: #39c8e2;
+  background-color: #5f9ea0;
   outline: 0;
   border: 0;
   -webkit-border-radius: 3px;
@@ -295,7 +295,7 @@ ul.social-top li a i {
   margin-right: 10px;
   width: 20px;
   height: 20px;
-  border: 1px solid #39c8e2;
+  border: 1px solid #5f9ea0;
   -webkit-border-radius: 50%;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 50%;
@@ -328,7 +328,7 @@ ul.social-top li a i {
 }
 #responsive-menu ul li a {
   padding: 12px 18px;
-  background-color: #39c8e2;
+  background-color: #5f9ea0;
   color: #fff;
   display: block;
   -webkit-border-radius: 4px;
@@ -344,7 +344,7 @@ ul.social-top li a i {
 }
 a#mobile_menu {
   font-size: 24px;
-  background-color: #39c8e2;
+  background-color: #5f9ea0;
   color: #ffffff;
   width: 50px;
   height: 50px;
@@ -407,8 +407,8 @@ a#mobile_menu {
   height: 136px;
   line-height: 136px;
   text-align: center;
-  color: #39c8e2;
-  border: 2px solid #39c8e2;
+  color: #5f9ea0;
+  border: 2px solid #5f9ea0;
   -webkit-border-radius: 50%;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 50%;
@@ -434,12 +434,12 @@ a#mobile_menu {
 #services .service-item h3.service-title {
   text-transform: uppercase;
   font-size: 16px;
-  color: #39c8e2;
+  color: #5f9ea0;
   font-weight: 600;
   margin-top: 25px;
 }
 #services .service-item:hover .service-icon {
-  background: #39c8e2;
+  background: #5f9ea0;
   color: #ffffff;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -539,7 +539,7 @@ a#mobile_menu {
   margin-bottom: 0.5em;
 }
 #contact ul li i {
-  color: #39c8e2;
+  color: #5f9ea0;
   margin-right: 10px;
 }
 #contact input[type=text],
@@ -554,7 +554,7 @@ a#mobile_menu {
 #contact input[type=text]:focus,
 #contact input[type=email]:focus,
 #contact textarea:focus {
-  border-color: #39c8e2;
+  border-color: #5f9ea0;
 }
 #contact textarea {
   padding: 15px;
@@ -638,7 +638,7 @@ a#mobile_menu {
   #products {
     margin-top: 0;
 /*	background-image: none;
-    background-color: #39c8e2;	*/
+    background-color: #5f9ea0;	*/
     padding-bottom: 60px;
     padding-top: 100px;
   }
