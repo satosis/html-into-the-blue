@@ -45,9 +45,8 @@ h5,
 }
 
 p {
-    font-size: 15px;
+    font-size: 18px;
 }
-
 .slick-slide {
     width: 380px;
     padding: 30px;
@@ -75,7 +74,7 @@ p {
 
 .fact img {
     height: 210px;
-    width: 200px;
+    width: 205px;
     border-radius: 25px;
 }
 
@@ -101,7 +100,7 @@ p {
 }
 
 .w-30 {
-    width: 25% !important;
+    width: 20% !important;
 }
 
 .image-right {
