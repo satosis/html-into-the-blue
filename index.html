@@ -88,11 +88,10 @@
 
     <!-- SERVICES -->
     <div class="content-section bg-sea" id="services" style="margin-top: 20px;">
-        <div class="text-center m-3">
-            <p class="line-1 anim-typewriter" style="color: #fff;">---SMALL FACTS---</p>
+        <div class="typewriter" id="myTypewriter">
+            <h1>---SMALL FACTS---</h1>
         </div>
-
-        <div class="container">
+        <div class="container" style="margin-top: 40px;">
             <div class="multiple-items">
                 <div class="">
                     <div class="d-flex justify-content-center mb-4">
@@ -178,10 +177,10 @@
 
     <!-- PRODUCTS -->
     <div id="products" style="position: relative;">
-        <div class="canvas-container">
+        <!-- <div class="canvas-container">
             <canvas width="1899" height="922"
                 style="border: 0px; margin: 0px; padding: 0px; top: 0px; left: 0px; width: 100%; height: 100%;"></canvas>
-        </div>
+        </div> -->
         <div class="container" style="padding-top: 50px;">
             <div class="w-100">
                 <div class="fact d-flex w-30 animate-fact appear2">
@@ -578,6 +577,28 @@
 <script src="js/templatemo_custom.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+    var messages = ["---SMALL FACTS---"];
+    var rank = 0;
+
+    // Code for Chrome, Safari and Opera
+    document.getElementById("myTypewriter").addEventListener("webkitAnimationEnd", changeTxt);
+
+    // Standard syntax
+    document.getElementById("myTypewriter").addEventListener("animationend", changeTxt);
+
+    function changeTxt(e) {
+        _h1 = this.getElementsByTagName("h1")[0];
+        _h1.style.webkitAnimation = 'none'; // set element animation to none
+        setTimeout(function () { // you surely want a delay before the next message appears
+            _h1.innerHTML = messages[rank];
+            var speed = 3.5 * messages[rank].length / 20; // adjust the speed (3.5 is the original speed, 20 is the original string length
+            _h1.style.webkitAnimation = 'typing ' + speed + 's steps(40, end), blink-caret .75s step-end infinite'; //  switch to the original set of animation
+            (rank === messages.length - 1) ? rank = 0 : rank++; // if you have displayed the last message from the array, go back to the first one, else go to next message
+        }, 1000);
+    }
+</script>
 <script>
     $('.multiple-items').slick({
         infinite: true,
