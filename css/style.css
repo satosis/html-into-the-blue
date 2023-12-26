@@ -149,6 +149,9 @@ p {
     transform: none;
 }
 
+#products {
+    background: linear-gradient(30deg,#000, #0074d9, #36c5ffba  )
+}
 .appear2.inview2:nth-child(1) {
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
