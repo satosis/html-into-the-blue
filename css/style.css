@@ -70,6 +70,26 @@ p {
 
 }
 
+.menu-holder {
+    align-items: center;
+}
+
+header h2 {
+    padding: 5px;
+}
+
+.item {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    height: 500px;
+    color: #fff;
+    padding: 0 40px;
+}
+
+.active {
+    border: 5px solid #5f9ea0;
+}
+
 .fact {
     width: 80%;
     padding: 10px;
@@ -89,7 +109,8 @@ p {
     transition: width 0.3s;
 }
 
-.fact img {
+.fact img,
+.categories img {
     height: 210px;
     width: 205px;
     border-radius: 25px;
@@ -122,7 +143,6 @@ p {
 }
 
 .image-right {
-    width: 100%;
     text-align: right;
 }
 
@@ -190,6 +210,7 @@ p {
 .bubble5 {
     top: 6000px;
 }
+
 .bubble6 {
     top: 7500px;
 }
@@ -507,4 +528,59 @@ p {
         margin-top: 70px;
     }
 
+}
+
+.categories {
+    width: 100%;
+    border: 1px solid #696969;
+    border-radius: 25px;
+    margin: 0 20px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.categories .title {
+    height: 40px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.categories .title h2 {
+    line-height: 0;
+    padding-top: 5px;
+}
+
+.categories .subtitle {
+    /* transform-origin: 50% 38%;
+    transform: rotate(270deg);
+    position: relative; */
+    width: 40px;
+    border-left: 1px solid #000;
+    transform: rotate(180deg);
+}
+
+.categories .subtitle h5 {
+    transform-origin: 0% 120%;
+    /*  transform: rotate(270deg);
+    position: relative; */
+    width: 150px;
+    border-left: 1px solid #000;
+    transform: rotate(90deg);
+}
+.categories .d-flex {
+    height: 300px;
+}
+.categories .subtitle h5 {
+    font-size: 25px;
+    text-wrap: nowrap;
+}
+
+.categories .subtitle p {
+    color: #000;
+    font-size: 25px;
+    margin: 0;
+}
+
+.mt-3 {
+    margin-top: 15px;
 }
