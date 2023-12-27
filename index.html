@@ -696,8 +696,16 @@
             }]
     });
     $('.animate-fact').on('click', function () {
+        var that = $(this);
         $(this).toggleClass('w-30')
         $(this).find('.d-none').slideToggle("slow")
+        if(that.find('p').hasClass("show")) {
+            that.find('p').removeClass('show')
+        } else {
+            window.setTimeout(function(){
+                that.find('p').addClass('show')
+            }, 900);
+        }
     })
 
     const items = document.querySelectorAll('.appear2');
