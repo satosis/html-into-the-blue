@@ -71,7 +71,7 @@ p {
 }
 
 .fact {
-    width: 70%;
+    width: 80%;
     padding: 10px;
     border: 1px solid #696969;
     border-radius: 25px;
@@ -82,6 +82,7 @@ p {
 
 .fact p {
     margin: 0;
+    color: #fff;
 }
 
 .animate-fact {
@@ -149,9 +150,173 @@ p {
     transform: none;
 }
 
-#products {
-    background: linear-gradient(30deg,#000, #0074d9, #36c5ffba  )
+
+.ocean {
+    position: relative;
+    background-image: linear-gradient(0deg, #182848, #2980b9)
 }
+
+.bubble-overall {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: white;
+    opacity: 0.2;
+    animation: bubble 15s ease-in-out infinite,
+        sideWays 4s ease-in-out infinite alternate;
+}
+
+.bubble {
+    top: 1000px;
+}
+
+.bubble1 {
+    top: 2000px;
+}
+
+.bubble2 {
+    top: 3000px;
+}
+
+.bubble3 {
+    top: 4000px;
+}
+
+.bubble4 {
+    top: 5000px;
+}
+
+.bubble5 {
+    top: 6000px;
+}
+.bubble6 {
+    top: 7500px;
+}
+
+
+@keyframes bubble {
+    0% {
+        transform: translateY(0%);
+        opacity: 0.06;
+    }
+
+    100% {
+        transform: translateY(-120vh);
+    }
+}
+
+@keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 200px;
+    }
+}
+
+.bubble--1 {
+    left: 10%;
+    animation-delay: 0.5s;
+    animation-duration: 16s;
+    opacity: 0.2;
+}
+
+.bubble--2 {
+    width: 15px;
+    height: 15px;
+    left: 40%;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    opacity: 0.1;
+}
+
+.bubble--3 {
+    width: 10px;
+    height: 10px;
+    left: 30%;
+    animation-delay: 5s;
+    animation-duration: 20s;
+    opacity: 0.3;
+}
+
+.bubble--4 {
+    width: 25px;
+    height: 25px;
+    left: 40%;
+    animation-delay: 8s;
+    animation-duration: 17s;
+    opacity: 0.2;
+}
+
+.bubble--5 {
+    width: 30px;
+    height: 30px;
+    left: 60%;
+    animation-delay: 10s;
+    animation-duration: 15s;
+    opacity: 0.1;
+}
+
+.bubble--6 {
+    width: 10px;
+    height: 10px;
+    left: 80%;
+    animation-delay: 3s;
+    animation-duration: 30s;
+    opacity: 0.4;
+}
+
+.bubble--7 {
+    width: 15px;
+    height: 15px;
+    left: 90%;
+    animation-delay: -7s;
+    animation-duration: 25s;
+    opacity: 0.3;
+}
+
+.bubble--9 {
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    bottom: 30px;
+    animation-delay: -5s;
+    animation-duration: 19s;
+    opacity: 0.2;
+}
+
+.bubble--10 {
+    width: 40px;
+    height: 40px;
+    left: 30%;
+    bottom: 30px;
+    animation-delay: -21s;
+    animation-duration: 16s;
+    opacity: 0.3;
+}
+
+.bubble--11 {
+    width: 30px;
+    height: 30px;
+    left: 60%;
+    bottom: 30px;
+    animation-delay: -13.75s;
+    animation-duration: 20s;
+    opacity: 0.3;
+}
+
+.bubble--11 {
+    width: 25px;
+    height: 25px;
+    left: 90%;
+    bottom: 30px;
+    animation-delay: -10.5s;
+    animation-duration: 19s;
+    opacity: 0.3;
+}
+
 .appear2.inview2:nth-child(1) {
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
@@ -259,6 +424,7 @@ p {
     margin: 0 auto;
     width: 450px;
 }
+
 .typewriter h1 {
     overflow: hidden;
     color: #fff;
