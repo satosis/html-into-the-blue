@@ -385,11 +385,10 @@ a#mobile_menu {
   margin: 110px 0 30px 0;
 }
 #services {
-  padding-top: 40px;
-  padding-bottom: 140px;
+  padding-top: 70px;
   position: relative;
   z-index: 10;
-  height: 1000px;
+  height: 850px;
 }
 #services .service-item .service-icon {
   width: 136px;
