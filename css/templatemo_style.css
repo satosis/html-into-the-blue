@@ -440,9 +440,7 @@ a#mobile_menu {
   position: relative;
   z-index: 11;
   color: #ffffff;
-  padding-top: 200px;
   padding-bottom: 120px;
-  margin-top: -120px;
 }
 /*#products .product-left .image-product {
   float: left;
