@@ -435,10 +435,8 @@ a#mobile_menu {
   transform: rotate(360deg);
 }
 #products {
-  position: relative;
   z-index: 11;
   color: #ffffff;
-  padding-bottom: 120px;
 }
 /*#products .product-left .image-product {
   float: left;
