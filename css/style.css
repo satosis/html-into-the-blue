@@ -87,7 +87,10 @@ header h2 {
 }
 
 .active {
-    border: 5px solid #5f9ea0;
+    background: white;
+    border-radius: 50px;
+    padding: 10px;
+    color: #000;
 }
 
 .fact {
