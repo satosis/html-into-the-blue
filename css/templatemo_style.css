@@ -243,7 +243,7 @@ input.main-button,
   background: blueviolet;
   z-index: 1000;
   overflow: hidden;
-  padding-bottom: 10px;
+  height: 60px
 }
 @include transition(all 250ms ease-in-out);
 .site-header .logo {
