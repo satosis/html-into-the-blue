@@ -200,15 +200,14 @@ body {
   line-height: 24px;
   overflow-x: hidden;
 }
-a {
-  text-decoration: none !important;
-  -webkit-transition: color 200ms ease-in-out;
-  -moz-transition: color 200ms ease-in-out;
-  -o-transition: color 200ms ease-in-out;
-  transition: color 200ms ease-in-out;
+a.text {
+  color: aqua;
+  padding: 10px 20px;
 }
-a:hover {
-  color: #CCCC33;
+a.text:hover {
+  background: aqua;
+  color: #fff;
+  border-radius: 50px;
 }
 
 #products a {
@@ -239,17 +238,19 @@ input.main-button,
   position: fixed;
   top: 0;
   left: 0;
+  background-color: #fff;
   width: 100%;
-  background: blueviolet;
+  color: aqua;
   z-index: 1000;
   overflow: hidden;
   height: 60px
 }
+
 @include transition(all 250ms ease-in-out);
 .site-header .logo {
   margin-top: 42px;
 }
- 
+
 .menu-holder {
   position: relative;
 }
@@ -528,7 +529,8 @@ a#mobile_menu {
   margin-bottom: 30px;
 }
 #contact a:hover {
-  color: #ffffff;
+  background: aqua;
+  color: #fff;
 }
 #contact ul {
   padding: 0;

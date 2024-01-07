@@ -46,7 +46,7 @@ h5,
 }
 
 .chevron-down {
-    background: #5f9ea0;
+    background: aqua;
     font-size: 75px;
     border-radius: 50%;
     padding: 15px;
@@ -79,11 +79,9 @@ p {
     font-size: 28px;
 }
 .site-header .menu-holder .active {
-
-    background: white;
-    color: #000;
+    background: aqua;
+    color: #fff;
     border-radius: 50px;
-    padding: 10px 20px;
 }
 header h2 {
     padding: 5px;
